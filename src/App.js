@@ -41,7 +41,7 @@ if (!ops.includes(value))
     {
       return;
     }
-    const value = 0;
+    const value =  window.location.reload(false);
     setCalc(value);
   }
 
