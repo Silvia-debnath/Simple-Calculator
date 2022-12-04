@@ -17,8 +17,8 @@ button{
   border: none;
   outline: none;
   color: white;
-  font-size: 20px;
-  padding: 16px;
+  font-size: 25px;
+  
   cursor: pointer;
   transition: 0.4s;
 
@@ -28,7 +28,7 @@ button{
 
 .display {
   padding: 16px;
-  text-align: center;
+  text-align: right;
   background-color: lightgray;
   color: black;
   font-size: 35px;
@@ -45,8 +45,8 @@ button{
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  border-radius: 16px;
-  box-shadow: ;
+  border-radius: 19px;
+  
 } 
 
 .Calculator 
@@ -68,12 +68,27 @@ display: flex;
 flex: 1 1 0%;
 background-color: rgba(69, 66, 66);
 font-weight: 700;
+padding: 13px;
+}
+
+.Symbol2
+{
+ display: flex;   
+}
+
+.Symbol2 button
+{
+flex: 1 1 0%;
+background-color: rgba(69, 66, 66);
+font-weight: 700;
+padding: 9px;
 }
 
 .Numero
 {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .Numero button
@@ -81,4 +96,5 @@ font-weight: 700;
   flex: 1 1 33.333%;
   max-width: 33.333%;
   background-color: rgb(99, 95, 95);
+  padding: 20px;
 }
